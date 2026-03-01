@@ -1,0 +1,17 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0A3D62"/>
+<stop offset="0.5" stop-color="#0B6FA4"/>
+<stop offset="1" stop-color="#12BFA5"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="360" rx="24" fill="url(#g1)"/>
+<rect x="52" y="54" width="88" height="88" rx="20" fill="#EAF7FF" fill-opacity="0.95"/>
+<circle cx="96" cy="98" r="22" fill="#0EA5E9"/>
+<text x="168" y="112" fill="white" font-family="Segoe UI" font-size="62" font-weight="700">Consumer360</text>
+<text x="170" y="154" fill="#DDF3FF" font-family="Segoe UI" font-size="24">Enterprise Retail Intelligence Platform</text>
+<rect x="170" y="190" width="860" height="104" rx="16" fill="white" fill-opacity="0.1"/>
+<text x="198" y="234" fill="white" font-family="Segoe UI" font-size="24">RFM Segmentation • CLV Prediction • Cohort Retention • Market Basket • FastAPI • React</text>
+<text x="198" y="267" fill="#DDF3FF" font-family="Segoe UI" font-size="18">Weekly automated analytics pipeline + executive command center dashboard</text>
+</svg>

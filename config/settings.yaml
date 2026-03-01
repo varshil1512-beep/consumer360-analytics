@@ -1,0 +1,22 @@
+project_name: Consumer360
+run_day: Sunday
+report_dir: reports
+currency: USD
+rfm:
+  score_bins: 5
+  champion_min_r: 4
+  champion_min_f: 4
+  champion_min_m: 4
+market_basket:
+  min_support: 0.01
+  min_confidence: 0.2
+  min_lift: 1.0
+clv:
+  horizon_days: 90
+  discount_rate: 0.01
+data_source:
+  mode: csv   # csv | sql
+  csv_path: data/transactions.csv
+  sql:
+    connection_env_var: DB_CONNECTION_STRING
+    table_name: fact_sales

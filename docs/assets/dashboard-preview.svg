@@ -1,0 +1,76 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="900" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B4F7D"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="lineFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0EA5E9" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" rx="18" fill="#F2F7FC"/>
+
+  <rect x="24" y="24" width="220" height="652" rx="14" fill="white" stroke="#DCE7F5"/>
+  <text x="54" y="62" fill="#1E3A5F" font-family="Segoe UI" font-size="20" font-weight="700">Consumer360</text>
+  <rect x="48" y="84" width="172" height="30" rx="8" fill="#EEF5FF"/>
+  <rect x="48" y="126" width="172" height="30" rx="8" fill="#EEF5FF"/>
+  <rect x="48" y="168" width="172" height="30" rx="8" fill="#EEF5FF"/>
+  <rect x="48" y="210" width="172" height="30" rx="8" fill="#EEF5FF"/>
+  <rect x="48" y="252" width="172" height="30" rx="8" fill="#EEF5FF"/>
+  <rect x="48" y="294" width="172" height="150" rx="10" fill="#F7FBFF" stroke="#DCE7F5"/>
+  <text x="60" y="320" fill="#446086" font-family="Segoe UI" font-size="12">Filters</text>
+
+  <rect x="268" y="24" width="908" height="96" rx="14" fill="url(#hero)"/>
+  <text x="300" y="72" fill="white" font-family="Segoe UI" font-size="36" font-weight="700">Executive Command Center</text>
+  <text x="302" y="98" fill="#D6EEFF" font-family="Segoe UI" font-size="15">Advanced filters, customer spotlight, campaign priority, and strategic insights</text>
+
+  <rect x="268" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+  <rect x="498" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+  <rect x="728" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+  <rect x="958" y="136" width="218" height="92" rx="12" fill="white" stroke="#DCE7F5"/>
+  <text x="286" y="162" fill="#607897" font-family="Segoe UI" font-size="12">Total Revenue</text>
+  <text x="286" y="196" fill="#1E3A5F" font-family="Segoe UI" font-size="28" font-weight="700">$2.79M</text>
+  <text x="516" y="162" fill="#607897" font-family="Segoe UI" font-size="12">Customers</text>
+  <text x="516" y="196" fill="#1E3A5F" font-family="Segoe UI" font-size="28" font-weight="700">2,451</text>
+  <text x="746" y="162" fill="#607897" font-family="Segoe UI" font-size="12">Orders</text>
+  <text x="746" y="196" fill="#1E3A5F" font-family="Segoe UI" font-size="28" font-weight="700">10,000</text>
+  <text x="976" y="162" fill="#607897" font-family="Segoe UI" font-size="12">Avg Order Value</text>
+  <text x="976" y="196" fill="#1E3A5F" font-family="Segoe UI" font-size="28" font-weight="700">$279</text>
+
+  <rect x="268" y="244" width="458" height="210" rx="12" fill="white" stroke="#DCE7F5"/>
+  <text x="286" y="270" fill="#1E3A5F" font-family="Segoe UI" font-size="15" font-weight="700">Revenue Trend</text>
+  <path d="M286 404 L286 294 L706 294" stroke="#DCE7F5"/>
+  <path d="M286 378 C340 330,380 360,430 320 C470 292,520 348,560 326 C600 300,648 318,698 306 L698 404 L286 404 Z" fill="url(#lineFill)"/>
+  <path d="M286 378 C340 330,380 360,430 320 C470 292,520 348,560 326 C600 300,648 318,698 306" stroke="#0EA5E9" stroke-width="3" fill="none"/>
+
+  <rect x="738" y="244" width="438" height="210" rx="12" fill="white" stroke="#DCE7F5"/>
+  <text x="756" y="270" fill="#1E3A5F" font-family="Segoe UI" font-size="15" font-weight="700">Revenue by Region</text>
+  <circle cx="930" cy="354" r="72" fill="#EAF2FF"/>
+  <path d="M930 282 A72 72 0 0 1 995 325 L930 354 Z" fill="#0EA5E9"/>
+  <path d="M995 325 A72 72 0 0 1 965 412 L930 354 Z" fill="#14B8A6"/>
+  <path d="M965 412 A72 72 0 0 1 875 398 L930 354 Z" fill="#84CC16"/>
+  <path d="M875 398 A72 72 0 0 1 874 310 L930 354 Z" fill="#F59E0B"/>
+  <circle cx="930" cy="354" r="34" fill="white"/>
+
+  <rect x="268" y="468" width="458" height="208" rx="12" fill="white" stroke="#DCE7F5"/>
+  <text x="286" y="494" fill="#1E3A5F" font-family="Segoe UI" font-size="15" font-weight="700">Campaign Priority Queue</text>
+  <rect x="286" y="510" width="420" height="28" fill="#F6FAFF"/>
+  <text x="298" y="529" fill="#607897" font-family="Segoe UI" font-size="11">Customer</text>
+  <text x="420" y="529" fill="#607897" font-family="Segoe UI" font-size="11">Segment</text>
+  <text x="520" y="529" fill="#607897" font-family="Segoe UI" font-size="11">Score</text>
+  <text x="610" y="529" fill="#607897" font-family="Segoe UI" font-size="11">Monetary</text>
+  <line x1="286" y1="548" x2="706" y2="548" stroke="#E4ECF8"/>
+  <line x1="286" y1="572" x2="706" y2="572" stroke="#E4ECF8"/>
+  <line x1="286" y1="596" x2="706" y2="596" stroke="#E4ECF8"/>
+  <line x1="286" y1="620" x2="706" y2="620" stroke="#E4ECF8"/>
+
+  <rect x="738" y="468" width="438" height="208" rx="12" fill="white" stroke="#DCE7F5"/>
+  <text x="756" y="494" fill="#1E3A5F" font-family="Segoe UI" font-size="15" font-weight="700">Top Products + Insights</text>
+  <rect x="756" y="510" width="402" height="28" fill="#F6FAFF"/>
+  <line x1="756" y1="548" x2="1158" y2="548" stroke="#E4ECF8"/>
+  <line x1="756" y1="572" x2="1158" y2="572" stroke="#E4ECF8"/>
+  <line x1="756" y1="596" x2="1158" y2="596" stroke="#E4ECF8"/>
+  <line x1="756" y1="620" x2="1158" y2="620" stroke="#E4ECF8"/>
+</svg>
